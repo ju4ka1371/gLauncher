@@ -1,0 +1,13 @@
+Options +Indexes
+IndexOptions Charset=UTF-8 FancyIndexing FoldersFirst HTMLTable IconsAreLinks IgnoreCase SuppressRules VersionSort SuppressHTMLPreamble SuppressDescription SuppressColumnSorting
+IndexIgnore .htaccess tpl
+HeaderName /tpl/header.html
+ReadmeName /tpl/footer.html
+
+AddIcon /tpl/icons/folder.svg ^^DIRECTORY^^
+AddIcon /tpl/icons/folder-home.svg ..
+AddIcon /tpl/icons/zip.svg .zip
+AddIcon /tpl/icons/java.svg .jar
+AddIcon /tpl/icons/json.svg .json
+AddIcon /tpl/icons/file-text.svg .cfg .txt
+DefaultIcon /tpl/icons/file.svg
